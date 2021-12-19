@@ -39,6 +39,7 @@ jobs:
           paths:
             - node_modules
       - run: npm run dev
+      - run:
           name: get ready for postgres
           command: |
             sudo apt-get update
